@@ -42,6 +42,4 @@ public class Scontistica {
         list <opportunity> opps = [select id, Description, accountid, name, amount from Opportunity];
         return opps;
     }
-
-    //VERSIONE 2
 }
